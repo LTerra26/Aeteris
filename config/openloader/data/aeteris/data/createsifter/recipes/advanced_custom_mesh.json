@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:electrum_ingot"
+    },
+    "M": {
+      "item": "fabricaeexnihilo:netherite_mesh"
+    }
+  },
+  "result": {
+    "item": "createsifter:advanced_custom_mesh",
+    "count": 1
+  }
+}

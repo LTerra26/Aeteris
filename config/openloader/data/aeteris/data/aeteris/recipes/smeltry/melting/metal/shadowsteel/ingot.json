@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create_dd:shadow_steel"
+  },
+  "result": {
+    "amount": 9000,
+    "fluid": "kubejs:molten_shadowsteel"
+  },
+  "temperature": 1200,
+  "time": 72
+}

@@ -1,0 +1,11 @@
+{
+  "feature": "froz:geode/ice",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 47
+      }
+    }
+  ]
+}

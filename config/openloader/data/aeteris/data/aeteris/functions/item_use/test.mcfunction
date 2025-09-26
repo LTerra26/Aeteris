@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:sheep] store result entity @s Motion[1] double 0.0001 run unit_vector_x @p 10

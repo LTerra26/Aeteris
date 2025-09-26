@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "botania:rune_water"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "artifacts:crystal_heart"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:growing_crystal_heart" },
+        { "item": "kubejs:heart_fragment" }
+      ],
+      "results": [ { "item": "kubejs:growing_crystal_heart" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:growing_crystal_heart" },
+        { "item": "create:powdered_obsidian" }
+      ],
+      "results": [ { "item": "kubejs:growing_crystal_heart" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:growing_crystal_heart" },
+        { "item": "kubejs:heart_fragment" }
+      ],
+      "results": [ { "item": "kubejs:growing_crystal_heart" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "kubejs:growing_crystal_heart" },
+        {
+          "amount": 20250,
+          "fluid": "create:potion",
+          "nbt": {
+              "Bottle": "REGULAR",
+              "Potion": "minecraft:regeneration"
+            }
+          }
+        ],
+      "results": [ { "item": "kubejs:growing_crystal_heart" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:growing_crystal_heart"
+        }
+      ],
+      "results": [ { "item": "kubejs:growing_crystal_heart" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "kubejs:growing_crystal_heart" },
+        {
+          "amount": 4050,
+          "fluid": "create:potion",
+          "nbt": {
+              "Bottle": "REGULAR",
+              "Potion": "minecraft:strong_healing"
+            }
+          }
+        ],
+      "results": [ { "item": "kubejs:growing_crystal_heart" } ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:growing_crystal_heart"
+  }
+}

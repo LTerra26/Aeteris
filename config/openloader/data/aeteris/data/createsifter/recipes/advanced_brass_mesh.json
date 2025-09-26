@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS"
+  ],
+  "key": {
+    "S": {
+      "item": "create_dd:shadow_steel"
+    },
+    "M": {
+      "item": "fabricaeexnihilo:emerald_mesh"
+    }
+  },
+  "result": {
+    "item": "createsifter:advanced_brass_mesh",
+    "count": 1
+  }
+}

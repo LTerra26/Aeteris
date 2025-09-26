@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "twigs:pebble"
+          },
+          "weight": 40
+        },
+        {
+          "data": {
+            "Name": "iceandfire:dragon_ice_spikes"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "chipped:thick_cobweb_floor"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "tconstruct:large_sky_slime_crystal_bud",
+            "Properties": {
+              "facing": "up"
+            }
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "tconstruct:medium_sky_slime_crystal_bud",
+            "Properties": {
+              "facing": "up"
+            }
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "chipped:deepslate_pointed_dripstone",
+            "Properties": {
+              "thickness": "tip",
+              "vertical_direction": "up"
+            }
+          },
+          "weight": 50
+        }
+      ]
+    }
+  }
+}

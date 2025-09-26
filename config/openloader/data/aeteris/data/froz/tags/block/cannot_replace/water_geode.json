@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "#froz:trial_chamber_blocks",
+        "#froz:stronghold_blocks",
+        "#froz:mineshaft_blocks",
+        "#froz:ores",
+        "#minecraft:air",
+        "minecraft:packed_ice",
+        "minecraft:blue_ice",
+        "minecraft:dripstone_block",
+        "minecraft:magma_block",
+        "minecraft:bubble_column",
+        "minecraft:glow_lichen",
+        "minecraft:bedrock"
+    ]
+}

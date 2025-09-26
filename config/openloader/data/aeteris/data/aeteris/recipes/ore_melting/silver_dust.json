@@ -1,0 +1,19 @@
+{
+    "type": "tconstruct:ore_melting",
+    "byproducts": [
+        {
+            "amount": 3000,
+            "fluid": "tconstruct:molten_tin"
+        }
+    ],
+    "ingredient": {
+        "item": "kubejs:silver_dust"
+    },
+    "rate": "metal",
+    "result": {
+        "amount": 3000,
+        "fluid": "tconstruct:molten_silver"
+    },
+    "temperature": 790,
+    "time": 60
+}

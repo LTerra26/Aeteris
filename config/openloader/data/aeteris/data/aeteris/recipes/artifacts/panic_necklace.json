@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CRC",
+      "BHB",
+      "CRC"
+    ],
+    "key": {
+      "C": { "item": "minecraft:chain" },
+      "B": { "item": "botania:black_petal" },
+      "R": { "item": "botania:red_petal" }, 
+      "H": { "item": "artifacts:crystal_heart" }
+    },
+    "result": {
+      "item": "artifacts:panic_necklace",
+      "count": 1
+    }
+  }

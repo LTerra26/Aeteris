@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:mossy_cobblestone" },
+        { "item": "minecraft:mossy_cobblestone" },
+        { "item": "minecraft:mossy_cobblestone" },
+        { "item": "minecraft:mossy_cobblestone" },
+
+        { "item": "botania:rune_earth" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:wild_armor_trim_smithing_template"
+        }
+    ]
+}

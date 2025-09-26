@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:andesite"
+          }
+        }
+      ]
+    }
+  }
+}

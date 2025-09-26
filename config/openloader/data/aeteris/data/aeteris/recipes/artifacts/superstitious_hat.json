@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " L ",
+      "FRF",
+      "FLF"
+    ],
+    "key": {
+      "L": { "item": "botania:lime_petal" },
+      "R": { "item": "botania:rune_autumn" },
+      "F": { "item": "mcda:fabric_bolt_lime" }
+    },
+    "result": {
+      "item": "artifacts:superstitious_hat",
+      "count": 1
+    }
+  }

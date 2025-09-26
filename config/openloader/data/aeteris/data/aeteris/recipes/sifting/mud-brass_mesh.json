@@ -1,0 +1,1 @@
+{"results":[{"item":"fabricaeexnihilo:glow_berries","chance":0.075},{"item":"minecraft:mangrove_propagule","chance":0.225},{"item":"minecraft:frogspawn","chance":0.225},{"item":"minecraft:clay_ball","chance":0.265}],"type":"createsifter:sifting","ingredients":[{"item":"createsifter:brass_mesh"},{"item":"minecraft:mud"}],"processingTime":500}

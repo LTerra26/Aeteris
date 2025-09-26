@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "botania:light_blue_mystical_flower"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "iceandfire:dragon_ice_spikes"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:grass"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "twigs:twig"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "Name": "minecraft:fern"
+          },
+          "weight": 50
+        },
+        {
+          "data": {
+            "Name": "twigs:petrified_lichen",
+            "Properties": {
+              "down": "true"
+            }
+          },
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

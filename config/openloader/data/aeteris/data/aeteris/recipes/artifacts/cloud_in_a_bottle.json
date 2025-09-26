@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "F",
+      "R",
+      "V"
+    ],
+    "key": {
+      "F": { "item": "mcdar:light_feather" },
+      "R": { "item": "botania:rune_air" },
+      "V": { "item": "botania:vial" }
+    },
+    "result": {
+      "item": "artifacts:cloud_in_a_bottle",
+      "count": 1
+    }
+  }

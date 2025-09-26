@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "FLF",
+      "W W"
+    ],
+    "key": {
+      "F": { "item": "minecraft:feather" },
+      "W": { "item": "botania:white_petal" },
+      "L": { "item": "minecraft:leather_boots" }
+    },
+    "result": {
+      "item": "artifacts:snowshoes",
+      "count": 1
+    }
+  }

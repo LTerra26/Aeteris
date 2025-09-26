@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LTL",
+      "LCL",
+      "LSL"
+    ],
+    "key": {
+      "L": { "item": "botania:livingwood_log" },
+      "T": { "item": "botania:livingwood_twig" },
+      "C": { "item": "artifacts:crystal_heart" },
+      "S": { "item": "create_dd:polished_spectral_ruby" }
+    },
+    "result": {
+      "item": "mcdar:totem_of_regeneration",
+      "count": 1
+    }
+  }

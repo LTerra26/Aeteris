@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "aeteris:mega_spirit_tree",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.4,
+        "feature": {
+          "feature": "aeteris:rubber_tree",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

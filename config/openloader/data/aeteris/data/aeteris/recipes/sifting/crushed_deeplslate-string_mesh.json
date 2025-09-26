@@ -1,0 +1,1 @@
+{"results":[{"item":"twigs:pebble","chance":0.25},{"item":"fabricaeexnihilo:tuff_pebble","chance":0.45},{"item":"fabricaeexnihilo:tuff_pebble","chance":0.15},{"item":"fabricaeexnihilo:calcite_pebble","chance":0.25}],"type":"createsifter:sifting","ingredients":[{"item":"createsifter:string_mesh"},{"item":"fabricaeexnihilo:crushed_deepslate"}],"processingTime":500}

@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:emerald" },
+        { "item": "minecraft:emerald" },
+        { "item": "minecraft:emerald" },
+        { "item": "minecraft:emerald" },
+
+        { "item": "botania:rune_mana" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:sentry_armor_trim_smithing_template"
+        }
+    ]
+}

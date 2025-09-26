@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "froz:barren_forest",
+        "froz:chilling_woods",
+        "froz:coral_caves",
+        "froz:dry_riverbed",
+        "froz:glacial_runoff",
+        "froz:hail_mountain",
+        "froz:hot_spring",
+        "froz:ice_fields",
+        "froz:infected_forest",
+        "froz:silent_ocean",
+        "froz:snowfield",
+        "froz:underground_desert",
+        "froz:gravelly_beach",
+        "froz:ice_beach"
+    ]
+}

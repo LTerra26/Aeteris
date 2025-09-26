@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_custom_mesh"
+    }
+  ],
+  "result": [
+    {
+      "item": "fabricaeexnihilo:netherite_mesh"
+    },
+    {
+      "item": "createaddition:electrum_ingot",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  }
+}

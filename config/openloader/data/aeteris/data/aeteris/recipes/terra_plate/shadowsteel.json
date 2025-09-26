@@ -1,0 +1,30 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "iceandfire:dread_shard"
+    },
+    {
+      "item": "iceandfire:dread_shard"
+    },
+    {
+      "item": "iceandfire:dread_shard"
+    },
+    {
+      "item": "iceandfire:dread_shard"
+    },
+    {
+      "item": "create_dd:compound_base"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    }
+  ],
+  "mana": 250000,
+  "result": {
+    "item": "create_dd:shadow_steel"
+  }
+}

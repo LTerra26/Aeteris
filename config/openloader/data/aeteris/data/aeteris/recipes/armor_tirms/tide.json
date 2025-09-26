@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:prismarine_shard" },
+        { "item": "minecraft:prismarine_shard" },
+        { "item": "minecraft:prismarine_shard" },
+        { "item": "minecraft:prismarine_shard" },
+
+        { "item": "botania:rune_water" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:tide_armor_trim_smithing_template"
+        }
+    ]
+}

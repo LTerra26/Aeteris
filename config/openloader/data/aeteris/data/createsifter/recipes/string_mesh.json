@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STS"
+  ],
+  "key": {
+    "T": {
+      "item": "fabricaeexnihilo:string_mesh"
+    },
+    "S": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "createsifter:string_mesh",
+    "count": 1
+  }
+}

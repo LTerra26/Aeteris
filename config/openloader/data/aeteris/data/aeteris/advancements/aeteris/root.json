@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "botania:terra_sword"
+    },
+    "title": "Aeteris",
+    "description": "",
+    "background": "minecraft:textures/block/cherry_leaves.png",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "advencement_trives_root": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

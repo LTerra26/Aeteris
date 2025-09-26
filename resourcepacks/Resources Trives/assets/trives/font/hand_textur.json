@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "trives:hand_textur.ttf",
+            "shift": [0, 0],
+            "size": 14.0,
+            "oversample": 14.0
+        }
+    ]
+}

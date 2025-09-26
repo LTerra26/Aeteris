@@ -1,0 +1,31 @@
+{
+    "result": {
+        "item": "kubejs:lens_holder",
+        "count": 1
+    },
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " a ",
+        "bcb",
+        "ded",
+        "bcb",
+        " a "
+    ],
+    "key": {
+        "a": {
+            "item": "kubejs:strange_paste"
+        },
+        "c": {
+            "item": "create_dd:shadow_steel"
+        },
+        "b": {
+            "item": "botania:quartz_lavender"
+        },
+        "e": {
+            "item": "botania:lens_warp"
+        },
+        "d": {
+            "item": "create:sturdy_sheet"
+        }
+    }
+}

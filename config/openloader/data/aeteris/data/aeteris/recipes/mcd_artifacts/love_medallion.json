@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "EBE",
+      "BCB",
+      "EBE"
+    ],
+    "key": {
+      "E": { "item": "createaddition:electrum_sheet" },
+      "B": { "item": "create:brass_sheet" },
+      "C": { "item": "artifacts:crystal_heart" }
+    },
+    "result": {
+      "item": "mcdar:love_medallion",
+      "count": 1
+    }
+  }

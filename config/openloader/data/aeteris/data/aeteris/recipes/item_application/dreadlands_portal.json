@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "kubejs:endless_frost_block"
+    },
+    {
+      "item": "waystones:warp_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "iceandfire:dread_portal"
+    }
+  ]
+}

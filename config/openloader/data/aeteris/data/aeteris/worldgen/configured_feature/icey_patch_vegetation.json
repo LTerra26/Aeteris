@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "chipped:packed_ice_pointed_dripstone",
+        "Properties": {
+          "thickness": "tip",
+          "vertical_direction": "up"
+        }
+      }
+    }
+  }
+}

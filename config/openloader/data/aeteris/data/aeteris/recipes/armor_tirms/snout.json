@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:gilded_blackstone" },
+        { "item": "minecraft:gilded_blackstone" },
+        { "item": "minecraft:gilded_blackstone" },
+        { "item": "minecraft:gilded_blackstone" },
+
+        { "item": "botania:rune_greed" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:snout_armor_trim_smithing_template"
+        }
+    ]
+}

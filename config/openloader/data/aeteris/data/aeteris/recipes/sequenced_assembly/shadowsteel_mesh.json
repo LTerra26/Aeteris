@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "fabricaeexnihilo:gold_mesh" },
+  "loops": 3,
+  "results": [ { "item": "fabricaeexnihilo:diamond_mesh" } ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_mesh" },
+        {
+          "amount": 9000,
+          "fluid": "kubejs:molten_shadowsteel"
+        }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_mesh" },
+        { "item": "botania:dreamwood_twig" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_mesh" },
+        {
+          "amount": 9000,
+          "fluid": "hephaestusplus:molten_elementium"
+        }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_mesh" },
+        {
+          "amount": 9000,
+          "fluid": "kubejs:molten_shadowsteel"
+        }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_mesh" } ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_shadowsteel_mesh"
+  }
+}

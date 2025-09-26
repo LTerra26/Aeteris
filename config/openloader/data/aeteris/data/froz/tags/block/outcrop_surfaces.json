@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:grass_block",
+        "minecraft:mycelium",
+        "minecraft:snow_block",
+        "minecraft:stone",
+        "minecraft:cobblestone",
+        "minecraft:deepslate",
+        "minecraft:cobbled_deepslate",
+        "minecraft:packed_ice",
+        "minecraft:blue_ice",
+        "minecraft:granite",
+        "minecraft:gravel",
+        "minecraft:clay",
+        "minecraft:sculk"
+    ]
+}

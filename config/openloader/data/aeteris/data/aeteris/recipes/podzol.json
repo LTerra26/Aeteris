@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "farmersdelight:tree_bark"
+        },
+        {
+            "item": "fabricaeexnihilo:grass_seeds"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "minecraft:podzol"
+    }
+}

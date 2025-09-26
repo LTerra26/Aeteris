@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "artifacts:crystal_heart"
+      },
+      "title": "Heartbreaker",
+      "description": "Consume a Heartcrystal",
+      "frame": "goal",
+      "announce_to_chat": true
+    },
+    "parent": "aeteris:aeteris/root",
+    "criteria": {
+      "eat_heart": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "artifacts:crystal_heart"
+            ]
+          }
+        }
+      }
+    }
+  }

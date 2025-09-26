@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "BMB",
+      "SRS",
+      "R R"
+    ],
+    "key": {
+      "R": { "item": "create_dd:rubber" },
+      "B": { "item": "botania:blue_petal" },
+      "M": { "item": "botania:manasteel_boots" },
+      "S": { "item": "iceandfire:shiny_scales" }
+    },
+    "result": {
+      "item": "artifacts:flippers",
+      "count": 1
+    }
+  }

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:raw_iron",
+    "minecraft:raw_gold",
+    "minecraft:raw_copper",
+    "create_dd:raw_tin",
+    "iceandfire:raw_silver",
+    "create:raw_zinc",
+    "tconstruct:raw_cobalt"
+  ]
+}

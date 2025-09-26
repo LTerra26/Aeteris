@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A",
+        "G",
+        "C"
+    ],
+    "key": {
+        "A": { "item": "minecraft:amethyst_shard" },
+        "G": { "item": "create:golden_sheet" },
+        "C": { "item": "create:copper_sheet" }
+    },
+    "result": { "item": "minecraft:spyglass" }
+}

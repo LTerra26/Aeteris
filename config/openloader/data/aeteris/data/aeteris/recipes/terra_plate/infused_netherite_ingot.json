@@ -1,0 +1,30 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    },
+    {
+      "tag": "iceandfire:scales/dragon/fire"
+    },
+    {
+      "tag": "iceandfire:scales/dragon/fire"
+    },
+    {
+      "item": "kubejs:dragonbone_powder"
+    },
+    {
+      "item": "kubejs:dragonbone_powder"
+    }
+  ],
+  "mana": 250000,
+  "result": {
+    "item": "kubejs:infused_netherite_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "createdeco:iron_sheet_metal"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "create:iron_sheet"
+    }
+}

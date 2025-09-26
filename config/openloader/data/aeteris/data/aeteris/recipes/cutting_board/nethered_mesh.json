@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "createsifter:string_mesh"
+    }
+  ],
+  "result": [
+    {
+      "item": "fabricaeexnihilo:string_mesh"
+    },
+    {
+      "item": "create:andeite_alloy",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  }
+}

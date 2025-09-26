@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LWL",
+      "LFL",
+      "LWL"
+    ],
+    "key": {
+      "L": { "item": "minecraft:leather" },
+      "F": { "item": "minecraft:flint" }, 
+      "W": { "item": "createaddition:iron_wire" }
+    },
+    "result": {
+      "item": "supplementaries:quiver",
+      "count": 1
+    }
+  }

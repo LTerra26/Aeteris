@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:end_stone" },
+        { "item": "minecraft:end_stone" },
+        { "item": "minecraft:end_stone" },
+        { "item": "minecraft:end_stone" },
+
+        { "item": "botania:rune_envy" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:eye_armor_trim_smithing_template"
+        }
+    ]
+}

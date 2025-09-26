@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_brass_mesh"
+    }
+  ],
+  "result": [
+    {
+      "item": "fabricaeexnihilo:emerald_mesh"
+    },
+    {
+      "item": "create_dd:shadow_steel",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:tool_action",
+    "action": "axe_dig"
+  }
+}

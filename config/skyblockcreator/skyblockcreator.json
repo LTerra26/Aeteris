@@ -1,0 +1,34 @@
+{
+  "structureWorldConfigs": [
+    {
+      "structureIdentifier": "classic_skyblock",
+      "biomeIdentifier": "minecraft:plains",
+      "structureOffset": [
+        -10,
+        0,
+        -10
+      ],
+      "playerSpawnOffset": [
+        -8,
+        4,
+        -10
+      ],
+      "overridingDefault": false,
+      "fillmentBlockIdentifier": "minecraft:air",
+      "topBedrockEnabled": false,
+      "bottomBedrockEnabled": false,
+      "isBedrockFlat": false,
+      "theNether": {
+        "voidMode": false
+      },
+      "theEnd": {
+        "voidMode": false
+      }
+    }
+  ],
+  "createPlatformPermissionLevel": 0,
+  "teleportToPlatformPermissionLevel": 0,
+  "platformDistanceRadius": 1000,
+  "commandName": "skyblock",
+  "commandAlias": "sb"
+}

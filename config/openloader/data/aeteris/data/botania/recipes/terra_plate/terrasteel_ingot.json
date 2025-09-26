@@ -1,0 +1,24 @@
+{
+    "type": "botania:terra_plate",
+    "ingredients": [
+      {
+        "item": "botania:manasteel_ingot"
+      },
+      {
+        "item": "botania:mana_diamond"
+      },
+      {
+        "item": "create_dd:lapis_alloy"
+      },
+      {
+        "item": "create_dd:polished_spectral_ruby"
+      },
+      {
+        "item": "create:experience_nugget"
+      }
+    ],
+    "mana": 500000,
+    "result": {
+      "item": "botania:terrasteel_ingot"
+    }
+  }

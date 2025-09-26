@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": 1,
+    "extra_bottom_block_chance": 0.6,
+    "extra_edge_column_chance": 0.6,
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "state": {
+        "Name": "minecraft:grass_block"
+      },
+      "entries": [
+        {
+          "weight": 10,
+          "data": {
+            "Name": "iceandfire:crackled_gravel"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "iceandfire:chared_grass"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "iceandfire:crackled_grass"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "iceandfire:graveyard_soil"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:soul_sand"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:soul_soil"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "chipped:reanimated_soul_sand"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "nethersdelight:rich_soul_soil"
+          }
+        },
+        {
+          "weight": 55,
+          "data": {
+            "Name": "iceandfire:frozen_grass"
+          }
+        }
+      ]
+    },
+    "replaceable": "#aeteris:grass_blocks",
+    "surface": "floor",
+    "vegetation_chance": 0.25,
+    "vegetation_feature": {
+      "feature": "aeteris:haunted_forest_vegetation",
+      "placement": []
+    },
+    "vertical_range": 5,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 5,
+        "min_inclusive": 2
+      }
+    }
+  }
+}

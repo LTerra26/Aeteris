@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS"
+  ],
+  "key": {
+    "A": {
+      "item": "fabricaeexnihilo:flint_mesh"
+    },
+    "S": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "createsifter:andesite_mesh",
+    "count": 1
+  }
+}

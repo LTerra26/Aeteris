@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "FLF",
+      "LBL"
+    ],
+    "key": {
+      "F": { "item": "supplementaries:flax" },
+      "B": { "item": "botania:brown_petal" },
+      "L": { "item": "minecraft:leather" }
+    },
+    "result": {
+      "item": "artifacts:cowboy_hat",
+      "count": 1
+    }
+  }

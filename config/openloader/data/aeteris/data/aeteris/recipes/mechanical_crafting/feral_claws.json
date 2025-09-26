@@ -1,0 +1,19 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "P": { "item": "minecraft:prismarine_shard" },
+      "L": { "item": "betterend:leather_stripe" },
+      "T": { "item": "botania:terrasteel_ingot" },
+      "M": { "item": "botania:lime_petal" }
+    },
+    "pattern": [
+      "PLL",
+      "TMP",
+      "TML"
+    ],
+    "result": {
+      "count": 1,
+      "item": "artifacts:feral_claws"
+    }
+  }

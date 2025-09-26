@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "RER",
+      "LFL",
+      "RFR"
+    ],
+    "key": {
+      "R": { "item": "botania:red_petal" },
+      "E": { "item": "botania:endoflame" },
+      "L": { "item": "minecraft:leather" },
+      "F": { "item": "minecraft:fire_charge" }
+    },
+    "result": {
+      "item": "mcdar:flaming_quiver",
+      "count": 1
+    }
+  }

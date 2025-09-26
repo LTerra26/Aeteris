@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "aeteris:block/crimtane_crop/0" },
+    "age=1": { "model": "aeteris:block/crimtane_crop/1"},
+    "age=2": { "model": "aeteris:block/crimtane_crop/2" },
+    "age=3": { "model": "aeteris:block/crimtane_crop/2" },
+    "age=4": { "model": "aeteris:block/crimtane_crop/3" },
+    "age=5": { "model": "aeteris:block/crimtane_crop/3" },
+    "age=6": { "model": "aeteris:block/crimtane_crop/4" },
+    "age=7": { "model": "aeteris:block/crimtane_crop/5" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "aeteris:plain_rock_andesite",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": "aeteris:plain_rock_dread_stone",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

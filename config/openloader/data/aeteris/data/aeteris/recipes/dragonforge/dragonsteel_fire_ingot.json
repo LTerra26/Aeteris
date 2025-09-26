@@ -1,0 +1,14 @@
+{
+    "type": "iceandfire:dragonforge",
+    "dragon_type": "fire",
+    "cook_time": 1000,
+    "input": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "blood": {
+      "item": "kubejs:fire_compound"
+    },
+    "result": {
+      "item": "iceandfire:dragonsteel_fire_ingot"
+    }
+  }

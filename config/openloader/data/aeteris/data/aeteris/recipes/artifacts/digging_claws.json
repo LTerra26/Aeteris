@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PLL",
+      "TMP",
+      "TML"
+    ],
+    "key": {
+      "P": { "item": "create:sturdy_sheet" },
+      "L": { "item": "betterend:leather_stripe" },
+      "T": { "item": "botania:manasteel_ingot" },
+      "M": { "item": "botania:mana_diamond" }
+    },
+    "result": {
+      "item": "artifacts:digging_claws",
+      "count": 1
+    }
+  }

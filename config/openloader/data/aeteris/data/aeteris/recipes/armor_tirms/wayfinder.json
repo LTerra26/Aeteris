@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:terracotta" },
+        { "item": "minecraft:terracotta" },
+        { "item": "minecraft:terracotta" },
+        { "item": "minecraft:terracotta" },
+
+        { "item": "botania:rune_lust" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:wayfinder_armor_trim_smithing_template"
+        }
+    ]
+}

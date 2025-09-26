@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GG",
+      " G",
+      " L"
+    ],
+    "key": {
+      "G": { "item": "create:golden_sheet" },
+      "L": { "item": "botania:livingwood_log" }
+    },
+    "result": {
+      "item": "artifacts:golden_hook",
+      "count": 1
+    }
+  }

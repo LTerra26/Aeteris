@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS"
+  ],
+  "key": {
+    "B": {
+      "item": "fabricaeexnihilo:diamond_mesh"
+    },
+    "S": {
+      "item": "create_dd:industrial_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "createsifter:custom_mesh",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:diamond" },
+        { "item": "minecraft:diamond" },
+        { "item": "minecraft:diamond" },
+        { "item": "minecraft:diamond" },
+
+        { "item": "botania:rune_gluttony" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:spire_armor_trim_smithing_template"
+        }
+    ]
+}

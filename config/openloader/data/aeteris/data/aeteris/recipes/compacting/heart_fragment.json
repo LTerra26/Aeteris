@@ -1,0 +1,29 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+        { "item": "create:polished_rose_quartz" },
+        { "item": "create:polished_rose_quartz" },
+        { "item": "create_dd:polished_spectral_ruby" },
+        { "item": "create_dd:polished_spectral_ruby" },
+        { "item": "botania:red_petal" },
+        { "item": "botania:red_petal" },
+        { "item": "botania:red_petal" },
+        { "item": "botania:quartz_red" },
+        { "item": "botania:quartz_red" },
+        { "item": "botania:manasteel_ingot" },
+        {
+            "amount": 8100,
+            "fluid": "create:potion",
+            "nbt": {
+                "Bottle": "REGULAR",
+                "Potion": "minecraft:strong_healing"
+              }
+        }
+    ],
+    "results": [
+        {
+            "item": "kubejs:heart_fragment"
+        }
+    ]
+}

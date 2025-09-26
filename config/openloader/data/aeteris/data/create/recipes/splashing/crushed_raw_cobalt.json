@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "kubejs:crushed_raw_cobalt"
+    }
+  ],
+  "results": [
+    {
+      "count": 5,
+      "item": "tconstruct:cobalt_nugget"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:lapis_lazuli"
+    }
+  ]
+}

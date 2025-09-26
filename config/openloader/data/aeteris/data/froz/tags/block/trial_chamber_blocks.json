@@ -1,0 +1,16 @@
+{
+    "values": [
+        "#froz:copper_blocks",
+        "#froz:tuff_blocks",
+        "minecraft:trial_spawner",
+        "minecraft:vault",
+        "minecraft:podzol",
+        "minecraft:bone_block",
+        "minecraft:stone",
+        "minecraft:cobblestone",
+        "minecraft:soul_sand",
+        "minecraft:mud",
+        "minecraft:red_mushroom",
+        "minecraft:brown_mushroom"
+    ]
+}

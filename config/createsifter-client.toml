@@ -1,0 +1,13 @@
+#Settings for the mechanical sifter
+[sifter]
+	#Render sifted block
+	renderSiftedBlock = true
+	#Render moving mesh
+	renderMovingMesh = true
+
+#Settings for the mechanical brass sifter
+[brass_sifter]
+	#Render sifted block
+	renderSiftedBlock = true
+	#Render moving mesh
+	renderMovingMesh = true

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WWW",
+      "NLN",
+      "WWW"
+    ],
+    "key": {
+      "W": { "item": "createaddition:iron_wire" },
+      "N": { "item": "minecraft:iron_nugget" },
+      "L": { "item": "minecraft:leather_boots" }
+    },
+    "result": {
+      "item": "artifacts:steadfast_spikes",
+      "count": 1
+    }
+  }

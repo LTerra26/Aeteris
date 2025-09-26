@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " M ",
+      "LFL",
+      " M "
+    ],
+    "key": {
+      "M": { "item": "botania:mana_string" },
+      "L": { "item": "botania:light_blue_petal" },
+      "F": { "item": "minecraft:feather" }
+    },
+    "result": {
+      "item": "mcdar:light_feather",
+      "count": 1
+    }
+  }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SZS"
+  ],
+  "key": {
+    "Z": {
+      "item": "fabricaeexnihilo:iron_mesh"
+    },
+    "S": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "createsifter:zinc_mesh",
+    "count": 1
+  }
+}

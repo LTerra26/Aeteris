@@ -1,0 +1,7 @@
+{
+  "parent": "createsifter:block/meshes/mesh",
+  "textures": {
+    "mesh": "createsifter:item/advanced_brass_mesh",
+    "frame": "create_dd:block/shadow_steel_casing"
+  }
+}

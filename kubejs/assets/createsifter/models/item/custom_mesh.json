@@ -1,0 +1,7 @@
+{
+  "parent": "createsifter:block/meshes/mesh",
+  "textures": {
+    "mesh": "createsifter:item/custom_mesh",
+    "frame": "create_dd:block/industrial_casing"
+  }
+}

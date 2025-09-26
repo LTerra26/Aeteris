@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:cobbled_deepslate" },
+        { "item": "minecraft:cobbled_deepslate" },
+        { "item": "minecraft:cobbled_deepslate" },
+        { "item": "minecraft:cobbled_deepslate" },
+
+        { "item": "botania:rune_pride" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:ward_armor_trim_smithing_template"
+        }
+    ]
+}

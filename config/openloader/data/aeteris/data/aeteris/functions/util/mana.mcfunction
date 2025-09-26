@@ -1,0 +1,2 @@
+summon botania:mana_burst ~ ~1 ~ {lensStack: {id: "botania:lens_damage", Count: 1b}, color: 15645681, Invulnerable: 0b, hasShooter: 1b, startingMana: 240, Motion: [-0.2500000037252903d,0.0d,0.0d], manaLossTick: 4.0f, Rotation: [0.0f,0.0f], minManaLoss: 80, mana: 240, shooterUUID: [I; -1160731486, -362200860, -1607422105, -2029644507], Tags:["custom"]}
+execute as @e[type=botania:mana_burst, tag=custom, tag=!fin] run data modify entity @s shooterUUID set from entity @p UUID

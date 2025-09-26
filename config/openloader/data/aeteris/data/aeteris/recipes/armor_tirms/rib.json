@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "botania:manasteel_ingot" },
+        { "item": "create:sturdy_sheet" },
+        { "item": "create:sturdy_sheet" },
+
+        { "item": "minecraft:blaze_powder" },
+        { "item": "minecraft:blaze_powder" },
+        { "item": "minecraft:blaze_powder" },
+        { "item": "minecraft:blaze_powder" },
+
+        { "item": "botania:rune_fire" }
+    ],
+    "results": [
+        {
+            "item": "minecraft:rib_armor_trim_smithing_template"
+        }
+    ]
+}

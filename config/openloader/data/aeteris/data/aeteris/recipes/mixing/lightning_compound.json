@@ -1,0 +1,40 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        { "item": "iceandfire:lightning_dragon_blood" },
+        { "item": "iceandfire:lightning_dragon_blood" },
+        { "item": "iceandfire:lightning_dragon_blood" },
+
+        { "item": "minecraft:amethyst_shard" },
+        { "item": "botania:rune_air" },
+        { "item": "createaddition:electrum_ingot" },
+
+        { "item": "create_dd:compound_base" },
+        { "item": "botania:pixie_dust" },
+
+        {
+            "amount": 27000,
+            "fluid": "create:potion",
+            "nbt": {
+                "Bottle": "REGULAR",
+                "Potion": "minecraft:strength"
+            }
+        },
+        {
+            "amount": 9000,
+            "fluid": "molten_metals:molten_netherite"
+        }
+    ],
+    "results": [
+        { 
+            "item": "kubejs:lightning_compound",
+            "count": 3
+        },
+        { 
+            "item": "minecraft:glass_bottle",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated"
+  }
+  

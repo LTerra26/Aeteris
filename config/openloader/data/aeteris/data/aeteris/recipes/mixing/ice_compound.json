@@ -1,0 +1,40 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        { "item": "iceandfire:ice_dragon_blood" },
+        { "item": "iceandfire:ice_dragon_blood" },
+        { "item": "iceandfire:ice_dragon_blood" },
+
+        { "item": "iceandfire:sapphire_gem" },
+        { "item": "botania:rune_water" },
+        { "item": "minecraft:packed_ice" },
+
+        { "item": "create_dd:compound_base" },
+        { "item": "botania:pixie_dust" },
+
+        {
+            "amount": 27000,
+            "fluid": "create:potion",
+            "nbt": {
+                "Bottle": "REGULAR",
+                "Potion": "minecraft:strength"
+            }
+        },
+        {
+            "amount": 9000,
+            "fluid": "molten_metals:molten_netherite"
+        }
+    ],
+    "results": [
+        { 
+            "item": "kubejs:ice_compound",
+            "count": 3
+        },
+        { 
+            "item": "minecraft:glass_bottle",
+            "count": 3
+        }
+    ],
+    "heatRequirement": "superheated"
+  }
+  

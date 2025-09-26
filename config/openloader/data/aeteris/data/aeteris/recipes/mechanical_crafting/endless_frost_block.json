@@ -1,0 +1,24 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": false,
+    "key": {
+        "C": { "item": "create_dd:compound_base" },
+        "S": { "item": "minecraft:snow_block" },
+        "B": { "item": "minecraft:blue_ice" },
+        "I": { "item": "iceandfire:silver_ingot" },
+        "X": { "item": "botania:rune_winter" },
+        "Y": { "item": "botania:rune_envy" },
+        "Z": { "item": "botania:rune_water" }
+    },
+    "pattern": [
+        " CSC ",
+        "CBIXC",
+        "SIYIS",
+        "CZIBC",
+        " CSC "
+    ],
+    "result": {
+        "count": 1,
+        "item": "kubejs:endless_frost_block"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "DPD",
+    "#C#"
+  ],
+  "key": {
+    "#": { "item": "createaddition:zinc_sheet" },
+    "C": { "item": "createaddition:capacitor" },
+    "P": { "item": "create:precision_mechanism" },
+    "D": { "item": "create:display_board" },
+    "E": { "item": "minecraft:ender_pearl" }
+  },
+  "result": {
+    "item": "webstreamer:display"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+        {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.2,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 2,
+        "required_empty_blocks": 2,
+        "block_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "chipped:hanging_cobweb"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "chipped:hanging_broken_cobweb"
+              }
+            }
+          ]
+        },
+        "directions": [
+          "down"
+        ]
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "iceandfire:frozen_dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:mega_pine_foliage_placer",
+      "crown_height": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 14,
+          "min_inclusive": 10
+        }
+      },
+      "offset": 0,
+      "radius": 0
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "iceandfire:dreadwood_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "force_dirt": false,
+    "ignore_vines": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 1,
+      "upper_size": 2
+    },
+    "trunk_placer": {
+      "type": "minecraft:giant_trunk_placer",
+      "base_height": 15,
+      "height_rand_a": 3,
+      "height_rand_b": 9
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "create_dd:spirit_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

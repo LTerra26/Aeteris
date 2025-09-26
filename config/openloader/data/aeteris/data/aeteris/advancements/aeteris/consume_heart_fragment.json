@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:heart_fragment"
+      },
+      "title": "",
+      "description": "",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "aeteris:aeteris/root",
+    "criteria": {
+      "eat_heart": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "kubejs:heart_fragment"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "aeteris:advancement/consume_heart_fragment",
+      "experience": 4
+    }
+  }

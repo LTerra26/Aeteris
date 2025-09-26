@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 30,
+          "data": {
+            "Name": "iceandfire:dread_stone"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "iceandfire:chared_stone"
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "iceandfire:crackled_stone"
+          }
+        }
+      ]
+    }
+  }
+}

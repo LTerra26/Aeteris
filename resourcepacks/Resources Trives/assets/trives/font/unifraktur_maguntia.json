@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "trives:unifraktur_maguntia.ttf",
+            "shift": [0, 0],
+            "size": 11.0,
+            "oversample": 14.0
+        }
+    ]
+}

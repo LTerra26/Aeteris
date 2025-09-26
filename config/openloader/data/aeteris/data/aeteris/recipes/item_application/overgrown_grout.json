@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "botania:vivid_grass"
+    },
+    {
+      "item": "botania:fertilizer"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:overgrown_grout"
+    }
+  ]
+}

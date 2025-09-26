@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "froz:barren_forest",
+        "froz:glacial_runoff",
+        "froz:snowfield",
+        "froz:chilling_woods",
+        "froz:hot_spring"
+    ]
+}

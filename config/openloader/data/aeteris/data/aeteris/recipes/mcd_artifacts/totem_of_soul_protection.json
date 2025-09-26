@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "STS",
+      "DRD",
+      "S#S"
+    ],
+    "key": {
+      "S": { "item": "create_dd:steel_sheet" },
+      "T": { "item": "botania:terrasteel_ingot" },
+      "D": { "item": "botania:dreamwood_twig" },
+      "R": { "item": "botania:rune_greed" },
+      "#": { "item": "soulsweapons:skofnung_stone" }
+    },
+    "result": {
+      "item": "mcdar:totem_of_soul_protection",
+      "count": 1
+    }
+  }

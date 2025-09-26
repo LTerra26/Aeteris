@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " Z ",
+        "IRI",
+        " Z "
+    ],
+    "key": {
+        "Z": { "tag": "c:zinc_plates" },
+        "R": { "item": "minecraft:redstone" },
+        "I": { "item": "create:iron_sheet" }
+    },
+    "result": { "item": "minecraft:compass" }
+}

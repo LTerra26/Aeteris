@@ -1,0 +1,1 @@
+{"results":[{"item":"minecraft:cocoa_beans","chance":0.125},{"item":"fabricaeexnihilo:cactus_seeds","chance":0.125},{"item":"minecraft:melon_seeds","chance":0.125},{"item":"minecraft:pumpkin_seeds","chance":0.125}],"type":"createsifter:sifting","ingredients":[{"item":"createsifter:string_mesh"},{"item":"minecraft:sand"}],"processingTime":500}

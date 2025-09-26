@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  R",
+      "FLF",
+      "LGL"
+    ],
+    "key": {
+      "R": { "item": "botania:cosmetic_red_ribbons" },
+      "F": { "item": "supplementaries:flax" },
+      "L": { "item": "botania:light_gray_petal" },
+      "G": { "item": "botania:gray_petal" }
+    },
+    "result": {
+      "item": "artifacts:anglers_hat",
+      "count": 1
+    }
+  }
