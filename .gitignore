@@ -17,3 +17,4 @@ instance.json
 rhino.local.properties
 usercache.json
 usernamecache.json
+*.code-workspace
