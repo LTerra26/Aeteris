@@ -18,3 +18,4 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 *.code-workspace
+config/roughlyenoughitems/
