@@ -1,6 +1,6 @@
 .fabric/
 .mixin.out/
-data/
+/data/
 defaultconfigs/
 local/
 logs/

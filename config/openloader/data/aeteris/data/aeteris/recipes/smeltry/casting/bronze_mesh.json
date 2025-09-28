@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "fabricaeexnihilo:iron_mesh"
+  },
+  "cast_consumed": true,
+  "cooling_time": 175,
+  "fluid": {
+    "amount": 81000,
+    "tag": "tconstruct:molten_bronze"
+  },
+  "result": "fabricaeexnihilo:gold_mesh"
+
+}
