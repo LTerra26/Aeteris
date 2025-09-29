@@ -3,7 +3,7 @@
     "byproducts": [
         {
             "amount": 3000,
-            "fluid": "tconstruct:molten_silver"
+            "fluid": "tconstruct:molten_iron"
         }
     ],
     "ingredient": {

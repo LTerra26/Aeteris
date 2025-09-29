@@ -1,1 +1,1 @@
-{"results":[{"item":"fabricaeexnihilo:grass_seeds","chance":0.3}],"type":"createsifter:sifting","ingredients":[{"item":"createsifter:advanced_custom_mesh"},{"item":"minecraft:dirt"}],"processingTime":500}
+{"results":[{"item":"twigs:pebble","chance":0.85},{"item":"twigs:pebble","chance":0.7},{"item":"twigs:pebble","chance":0.5},{"item":"fabricaeexnihilo:grass_seeds","chance":0.3}],"type":"createsifter:sifting","ingredients":[{"item":"createsifter:advanced_custom_mesh"},{"item":"minecraft:dirt"}],"processingTime":500}
