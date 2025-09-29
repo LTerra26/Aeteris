@@ -1,0 +1,1 @@
+{"results":[{"chance":1,"item":"kubejs:quartz_powder","count":1},{"chance":0.475,"item":"kubejs:quartz_powder","count":1},{"chance":0.1,"item":"minecraft:bone_meal","count":1},{"chance":0.075,"item":"minecraft:glowstone_dust","count":1},{"chance":0.075,"item":"kubejs:zinc_dust","count":1}],"type":"create:crushing","ingredients":[{"item":"minecraft:quartz"}],"processingTime":200}
