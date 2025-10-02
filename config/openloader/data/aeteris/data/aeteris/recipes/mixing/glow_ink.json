@@ -1,0 +1,1 @@
+{"type":"create:mixing","ingredients":[{"fluid":"create_enchantment_industry:ink","amount":40500},{"item":"minecraft:amethyst_shard"},{"item":"minecraft:prismarine_crystals"},{"item":"minecraft:glowstone_dust"}],"results":[{"fluid":"kubejs:glow_ink","amount":40500}]}

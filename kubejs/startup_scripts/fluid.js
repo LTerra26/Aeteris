@@ -16,7 +16,7 @@ StartupEvents.registry('fluid', event => {
         .noBlock()
         .bucketItem.texture('aeteris:item/fire_dragon_blood_bucket')
     event.create('glow_ink')
-        .thinTexture(0x38FFD3)
+        .thinTexture('aeteris:block/glow_ink_still')
         .stillTexture('aeteris:block/glow_ink_still')
         .flowingTexture('aeteris:block/glow_ink_flowing')
         .displayName('Glow Ink')

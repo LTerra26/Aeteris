@@ -54,6 +54,8 @@ StartupEvents.registry('item', event => {
     event.create('lens_holder')
     event.create('strange_paste')
     event.create('quartz_powder').tag('forge:dusts/quartz')
+    event.create('snow_powder')
+    event.create('void_dust')
 
 })
 

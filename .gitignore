@@ -18,3 +18,8 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 *.code-workspace
+/config/*
+!config/iceandfire/
+!config/openloader/
+!config/skyblockcreator/
+!config/advancement-book-updated.json
