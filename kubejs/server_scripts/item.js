@@ -34,5 +34,5 @@ ItemEvents.rightClicked(event => {
     weapon_use(event, 'kubejs:water_bolt', 'aeteris:item_use/water_bolt', 3000)
     weapon_use(event, 'kubejs:aqua_sceptor', 'aeteris:item_use/aqua_sceptor', 2000)
 
-    use_note(event, 'kubejs:note_1', 'openguiscreen note_1')
+    use_note(event, 'kubejs:note')
 })

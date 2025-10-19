@@ -57,7 +57,7 @@ StartupEvents.registry('item', event => {
     event.create('snow_powder')
     event.create('void_dust')
     
-    event.create('note_1').maxStackSize(1)
+    event.create('note').maxStackSize(1)
 
 })
 
