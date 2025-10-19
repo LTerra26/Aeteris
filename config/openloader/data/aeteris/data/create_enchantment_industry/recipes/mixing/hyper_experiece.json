@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_dd:frozen_nugget"
+    },
+    {
+      "item": "create_dd:frozen_nugget"
+    },
+    {
+      "item": "create_dd:frozen_nugget"
+    },
+    {
+      "item": "create_dd:frozen_nugget"
+    },
+    {
+      "item": "botania:quartz_mana"
+    },
+    {
+      "item": "botania:quartz_mana"
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 8100
+    },
+    {
+      "fluid": "kubejs:glow_ink",
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "amount": 270
+    }
+  ],
+  "heatRequirement": "superheated"
+}

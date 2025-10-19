@@ -80,6 +80,15 @@ ServerEvents.commandRegistry(event=>{
     let customCmd2 = new CustomCommand(event, "another_cmd")
     customCmd2.addExec(c => say("nothing happens"))
     customCmd2.register()
+
+    let cmd_spawn = new CustomCommand(event, "return_spawnpoint")
+    cmd_spawn.addArg("target", cmd_spawn.Args.ENTITY)
+    cmd_spawn.addExec(c => {
+        let kvMap = cmd_spawn.getKeysAndValues(c, ["target"])
+        let player = kvMap.target
+        return player.getBedSpawnLocation()
+    })
+    cmd_spawn.register()
     
     let calc = (type, entity, multiplier) => {
         let pitch = entity.pitch * 3.14159265/180

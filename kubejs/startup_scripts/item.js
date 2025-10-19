@@ -56,6 +56,8 @@ StartupEvents.registry('item', event => {
     event.create('quartz_powder').tag('forge:dusts/quartz')
     event.create('snow_powder')
     event.create('void_dust')
+    
+    event.create('note_1').maxStackSize(1)
 
 })
 
