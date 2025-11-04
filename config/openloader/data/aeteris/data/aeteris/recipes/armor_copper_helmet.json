@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "create_ironworks:copper_armor_helmet"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "iceandfire:armor_copper_metal_helmet"
+    }
+}

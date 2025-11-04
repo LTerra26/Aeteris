@@ -1,0 +1,18 @@
+{
+    "values": [
+        "iceandfire:frozen_stone",
+        "iceandfire:frozen_cobblestone",
+        "minecraft:packed_ice",
+        "minecraft:blue_ice",
+        "minecraft:blackstone",
+        "create_dd:weathered_limestone",
+        "create_dd:potassic",
+        "create:asurine",
+        "iceandfire:crackled_stone",
+        "minecraft:deepslate",
+        "create:scoria",
+        "create:scorchia",
+        "minecraft:tuff",
+        "iceandfire:dread_stone"
+    ]
+}

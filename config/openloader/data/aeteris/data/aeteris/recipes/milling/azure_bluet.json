@@ -1,0 +1,1 @@
+{"results":[{"chance":1,"item":"minecraft:white_dye","count":1},{"chance":0.5,"item":"minecraft:light_gray_dye","count":1},{"chance":0.35,"item":"botania:white_petal","count":1}],"type":"create:milling","ingredients":[{"item":"minecraft:azure_bluet"}],"processingTime":200}

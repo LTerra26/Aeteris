@@ -1,0 +1,432 @@
+---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 2025-10-23 20:54:31
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'immersive_guns' at 'net.lukeon.immersive_guns.ImmersiveGuns'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: java.lang.NoClassDefFoundError: mod/azure/azurelib/core/animatable/GeoAnimatable
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.defineClassFwd(KnotClassLoader.java:160)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:355)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.defineClassFwd(KnotClassLoader.java:160)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:355)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at knot//net.lukeon.immersive_guns.ImmersiveGuns.onInitialize(ImmersiveGuns.java:67)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: mod.azure.azurelib.core.animatable.GeoAnimatable
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 24 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:52)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.8.0-63-generic
+	Java Version: 17.0.16, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 272943392 bytes (260 MiB) / 1119879168 bytes (1068 MiB) up to 4150263808 bytes (3958 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 10
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 2.40
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: CoffeeLake-H GT2 [UHD Graphics 630]
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 256.00
+	Graphics card #0 deviceId: 0x3e9b
+	Graphics card #0 versionInfo: unknown
+	Graphics card #1 name: TU116M [GeForce GTX 1660 Ti Mobile]
+	Graphics card #1 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #1 VRAM (MB): 288.00
+	Graphics card #1 deviceId: 0x2191
+	Graphics card #1 versionInfo: unknown
+	Virtual memory max (MB): 9962.46
+	Virtual memory used (MB): 7153.11
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		advancement-book-updated: Advancement Book Updated 1.0.1-fabric-1.20.1
+		ali: AdvancedLootInfo 1.20.1-1.2.1
+		almanac: Almanac 1.0.2
+		amendments: Amendments 1.20-1.2.19
+		appleskin: AppleSkin 2.5.1+mc1.20
+		architectury: Architectury 9.2.14
+		artifacts: Artifacts 9.5.15
+			expandability: ExpandAbility 9.0.4
+		athena: Athena 3.1.2
+		axiom: Axiom 5.1.1
+			com_moulberry_axiomclientapi: axiomclientapi 1.0.19
+			com_moulberry_mixinconstraints: mixinconstraints 1.0.9
+			lattice: Lattice 1.2.16
+		azurelib: AzureLib 3.1.1
+		badoptimizations: BadOptimizations 2.3.0
+		balm: Balm 7.3.34
+			kuma_api: KumaAPI 20.1.10
+		bettercombat: Better Combat 1.8.6+1.20.1
+		betterf3: BetterF3 7.0.2
+		bookshelf: Bookshelf 20.2.13
+		botania: Botania 1.20.1-448-FABRIC
+			fiber: fiber 0.23.0-2
+			reach-entity-attributes: Reach Entity Attributes 2.4.0
+			step-height-entity-attribute: Step Height Entity Attribute 1.2.0
+		botanypots: BotanyPots 13.0.41
+		chipped: Chipped 3.0.7
+		cloth-config: Cloth Config v11 11.1.136
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 12.0.0.4
+		comforts: Comforts 6.4.0+1.20.1
+			spectrelib: SpectreLib 0.13.15+1.20.1
+		commonnetworking: Common Network 1.0.5-1.20.1
+		computercraft: CC: Tweaked 1.116.1
+			cc_tweaked_cobalt: cobalt 0.9.6
+			com_electronwill_night-config_core: core 3.8.1
+			com_electronwill_night-config_toml: toml 3.8.1
+			com_jcraft_jzlib: jzlib 1.1.3
+			io_netty_netty-codec-http: netty-codec-http 4.1.82
+			io_netty_netty-codec-socks: netty-codec-socks 4.1.82
+			io_netty_netty-handler-proxy: netty-handler-proxy 4.1.82
+		continuity: Continuity 3.0.0+1.20.1
+		copycats: Create: Copycats+ 2.2.2+mc.1.20.1-fabric
+		craftingtweaks: Crafting Tweaks 18.2.6
+		cratedelight: Crate Delight 24.11.22-1.20-fabric
+		create: Create 0.5.1-j-build.1631+mc1.20.1
+			flywheel: Flywheel 0.6.11-4
+			milk: Milk Lib 1.2.60
+				dripstone_fluid_lib: Dripstone Fluid Lib 3.0.2
+			porting_lib_obj_loader: Porting Lib Obj Loader 2.3.8+1.20.1
+			registrate-fabric: Registrate for Fabric 1.3.79-MC1.20.1
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.1090+1.20
+					porting_lib_gametest: Porting Lib GameTest 2.1.1090+1.20
+					porting_lib_model_materials: Porting Lib Model Materials 2.1.1090+1.20
+		create-trimmed: create-trimmed 1.0.0
+		create_dd: Create: Dreams & Desires 0.1d
+			dsbg: Detected setBlock Be Gone 1.0
+		create_enchantment_industry: Create Enchantment Industry 1.2.16
+			create_dragon_lib: Create Dragon Lib 1.4.2
+		create_ironworks: Create: Ironworks 3.5.0
+		create_oxidized: Create: Oxidized 0.1.1+1.20.1
+			terraform-wood-api-v1: Terraform Wood API (v1) 7.0.1
+		create_vibrant_vaults: Create: Vibrant Vaults 0.2.0+1.20.1
+		createaddition: Create Crafts & Additions 1.2.6
+		createdeco: Create Deco 2.0.2-1.20.1-fabric
+		createfood: Create: Food 1.1.11
+		createsifter: Create Sifter 0.1.1+1.20.1
+		creativecore: CreativeCore 2.12.33
+			net_minecraftforge_eventbus: eventbus 6.0.3
+		culturaldelights: Cultural Delights Fabric 1.0.5+1.20.1
+		cyanide: Cyanide 4.1.1
+		delightfulcreators: Delightful Creators 1.5-1.20.x
+		dynamic_fps: Dynamic FPS 3.9.5
+			net_lostluma_battery: battery 1.3.0
+		easyanvils: Easy Anvils 8.0.2
+		ends_delight: End's Delight refabricated-1.20.1-2.5
+		enhancedblockentities: Enhanced Block Entities 0.9+1.20
+			advanced_runtime_resource_pack: Runtime Resource Pack 0.6.7
+		entityculling: EntityCulling 1.8.2
+			transition: TRansition 1.0.3
+			trender: TRender 1.0.5
+		expandeddelight: Expanded Delight 0.3.2
+			mm: Manningham Mills 2.3
+			omega-config: OmegaConfig 1.4.0+1.20.1
+		fabric-api: Fabric API 0.92.6+1.20.1
+			fabric-api-base: Fabric API Base 0.4.32+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.37+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.14+1802ada577
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.12+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.3+924f046a77
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.42+1802ada577
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.3+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.35+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.14+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.52+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.67+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.13+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.6+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.20+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.2+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.7+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.55+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.1+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.5+13a40c6677
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.64+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.41+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.29+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.14+1802ada577
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.38+1802ada577
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.36+df3654b377
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.23+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.3+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.47+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.10+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.52+1802ada577
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.4+1802ada577
+			fabric-models-v0: Fabric Models (v0) 0.4.3+9386d8a777
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.14+a158aa0477
+			fabric-networking-v0: Fabric Networking (v0) 0.3.54+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.5+e35120df77
+			fabric-particles-v1: Fabric Particles (v1) 1.1.3+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.24+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.6+1802ada577
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.2+1802ada577
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.3+85287f9f77
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.47+df3654b377
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.39+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.29+1802ada577
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.50+df3654b377
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.9+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.9+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.12+fb82e9d777
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.9+1802ada577
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.33+1802ada577
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.14+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.6+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.2+1802ada577
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.4+kotlin.2.2.0
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.2.0
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.2.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.2.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.2.0
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.28.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.10.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.10.2
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.2
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.8.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.8.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.8.1
+		fabricaeexnihilo: FabricaeExNihilo 1.0.0+mc1.20.1
+		fabricloader: Fabric Loader 0.17.0
+			mixinextras: MixinExtras 0.5.0
+		fabrishot: Fabrishot 1.10.1
+		fancymenu: FancyMenu 3.7.0
+			com_github_keksuccino_japng: japng 0.5.3
+			com_github_rtyley_animated-gif-lib-for-java: animated-gif-lib-for-java animated-gif-lib-1.7
+		farmersdelight: Farmer's Delight 1.20.1-2.4.0+refabricated
+			porting_lib_recipe_book_categories: Porting Lib Recipe Book Categories 2.3.8+1.20.1
+			porting_lib_tags: Porting Lib Tags 3.0
+		ferritecore: FerriteCore 6.0.1
+		forgeconfigapiport: Forge Config API Port 8.0.2
+		framework: Framework 0.7.15
+			org_javassist_javassist: javassist 3.29.2-GA
+			org_reflections_reflections: reflections 0.10.2
+		gravestones: Gravestones v1.15
+		gravestonesfix: GravestonesFix 1.1.0
+		hephaestusexpansion: HephaestusExpansion 1.0.1h+1.20.1
+			team_reborn_energy: Energy 3.0.0
+		hephaestusplus: HephaestusPlus 1.1.1+1.20
+			config_toolkit: ConfigToolkit 1.0.0
+				io_determann_shadow-api-17: shadow-api-17 0.1.1
+				net_fabricmc_javapoet: javapoet 0.1.0
+		highlighter: Highlighter 1.1.9
+		icarus: Icarus 2.12.0
+		iceandfire: Ice And Fire Community Edition 1.1
+			cardinal-components-base: Cardinal Components API (base) 5.2.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.2.2
+			here-be-no-dragons: Here be no Dragons! 1.0.0
+		iceberg: Iceberg 1.1.25
+		immediatelyfast: ImmediatelyFast 1.5.1+1.20.4
+			net_lenni0451_reflect: Reflect 1.3.4
+		immersive_guns: Immersive Guns 1.3
+		incendium: Incendium 5.3.5
+		indium: Indium 1.0.31+mc1.20.4
+		ironchest: Iron Chests 2.0.2
+			libgui: LibGui 8.1.1+1.20.1
+				jankson: Jankson 6.0.0+j1.2.3
+					blue_endless_jankson: jankson 1.2.3
+				libninepatch: LibNinePatch 1.2.0
+		item_obliterator: Item Obliterator 2.3.0
+		jade: Jade 11.13.1+fabric
+		java: OpenJDK 64-Bit Server VM 17
+		jupiter: Jupiter 2.2.1
+		konkrete: Konkrete 1.8.1
+		krypton: Krypton 0.2.3
+			com_velocitypowered_velocity-native: velocity-native 3.2.0-SNAPSHOT
+		kubejs: Aeteris 2001.6.5-build.16
+		kubejs_botania: KubeJS Botania 1.4.0
+		kubejsoffline: KubeJS Offline (Fabric) 5.0.7
+		lambdynlights: LambDynamicLights 4.1.4+1.20.1
+			lambdynlights_api: LambDynamicLights (API) 4.1.4+1.20.1
+				yumi-commons-collections: Yumi Commons: Collections 1.0.0-alpha.12
+				yumi-commons-core: Yumi Commons: Core 1.0.0-alpha.12
+				yumi-commons-event: Yumi Commons: Event 1.0.0-alpha.12
+			pride: Pride Lib 1.2.0+1.19.4
+			spruceui: SpruceUI 6.2.1+1.20
+		lazydfu: LazyDFU 0.1.3
+		letmedespawn: Let Me Despawn 1.5.0
+		lithium: Lithium 0.11.3
+		lootjs: LootJS 1.20.1-2.13.0
+		lootr: Lootr 0.7.35.85
+		magnumtorch: Magnum Torch 8.0.2
+		melius-commands: Melius Commands 2.0.2+1.20.1
+			placeholder-api: Placeholder API 2.1.4+1.20.1
+			predicate-api: Predicate API 0.2.1+1.20.1
+		melody: Melody 1.0.3
+		memoryleakfix: Memory Leak Fix 1.1.5
+		midnightlib: MidnightLib 1.4.1
+		minecraft: Minecraft 1.20.1
+		miners_datapack_commands: Miner3D's Datapack Commands 1.0.1
+		modernfix: ModernFix 5.24.4+mc1.20.1
+		modmenu: Mod Menu 7.2.2
+		moonlight: Moonlight 1.20-2.15.4
+		moreculling: More Culling 1.20.4-0.24.0
+			conditional-mixin: conditional mixin 0.3.2
+		moredelight: More Delight 25.7.28-1.20-fabric
+		mousetweaks: Mouse Tweaks 2.26
+		mr_create_decoadditions: Create Deco Additions 1.3
+		naturescompass: Nature's Compass 1.20.1-2.2.3-fabric
+		necronomicon: Necronomicon 1.6.0
+		nethersdelight: Nether's Delight Refabricated 1.20.1-4.1.1
+		nightautoconfig: Night Auto Config 1.0.6
+			com_electronwill_night-config_hocon: hocon 3.8.0
+			com_electronwill_night-config_json: json 3.8.0
+			com_electronwill_night-config_yaml: yaml 3.8.0
+		nvidium: Nvidium 0.2.6-beta
+		openloader: OpenLoader 19.0.4
+		openpartiesandclaims: Open Parties and Claims 0.24.0
+		particlerain: Particle Rain 4.0.0-alpha.3+1.20.1-fabric
+		patchouli: Patchouli 1.20.1-84.1-FABRIC
+		player-animator: Player Animator 1.0.2-rc1+1.20
+		puzzleslib: Puzzles Lib 8.1.32
+			puzzlesaccessapi: Puzzles Access Api 20.1.1
+		railways: Create: Steam 'n' Rails 1.6.9+fabric-mc1.20.1
+		re2: REI Integrations (RE2) 1.0.0-alpha.3
+		reeses-sodium-options: Reese's Sodium Options 1.7.2+mc1.20.1-build.101
+		refurbished_furniture: MrCrayfish's Furniture Mod: Refurbished 1.0.14
+		rei-enchantment-info: REI Enchantment Info 1.0.0
+		rei_custom_command: REI Custom Command 2.2.0
+		reicollapsibleentries: REI Collapsible Entries 3.1.1
+		resourcefulconfig: Resourcefulconfig 2.1.3
+		resourcefullib: Resourceful Lib 2.1.29
+			com_teamresourceful_bytecodecs: bytecodecs 1.0.2
+			com_teamresourceful_yabn: yabn 1.0.3
+		rhino: Rhino 2001.2.3-build.10
+		roughly_enough_trades: Roughly Enough Trades 1.0
+		roughlyenoughitems: Roughly Enough Items 12.1.785
+			error_notifier: Error Notifier 1.0.9
+		roughlyenoughprofessions: Roughly Enough Professions 2.0.2
+		rusticdelight: Rustic Delight 1.3.2
+		skinlayers3d: 3d-Skin-Layers 1.8.2
+		skyblockcreator: Skyblock Creator 1.3.0-ALPHA+1.20.1
+			respro: Resource Provider Library 1.3.0-ALPHA+1.20.1
+			server_translations_api: Server Translations API 2.0.0+1.20
+				packet_tweaker: Packet Tweaker 0.4.0+1.19.4
+		sodium: Sodium 0.5.8+mc1.20.1
+		sodium-extra: Sodium Extra 0.5.9+mc1.20.1
+			caffeineconfig: CaffeineConfig 1.3.0+1.17
+		sound_physics_remastered: Sound Physics Remastered 1.20.1-1.4.15
+		spark: spark 1.10.53
+			fabric-permissions-api-v0: fabric-permissions-api 0.1-SNAPSHOT
+		storagedrawers: Storage Drawers 12.11.0
+		tconstruct: Hephaestus 1.20.1-3.6.4.287
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			mantle: Mantle 1.20.1-1.9.277
+				star: Star 1.5.2+1.20.1
+			mixinsquared: MixinSquared 0.1.1
+			porting_lib_accessors: Porting Lib Accessors 2.3.9-beta.50+1.20.1
+			porting_lib_attributes: Porting Lib Attributes 2.3.9-beta.50+1.20.1
+			porting_lib_base: Porting Lib Base 2.3.9-beta.50+1.20.1
+				porting_lib_gui_utils: Porting Lib Gui Utils 2.3.9-beta.50+1.20.1
+			porting_lib_brewing: Porting Lib Brewing 2.3.9-beta.50+1.20.1
+			porting_lib_client_events: Porting Lib Client Events 2.3.9-beta.50+1.20.1
+			porting_lib_common: Porting Lib Common 2.3.9-beta.50+1.20.1
+			porting_lib_config: Porting Lib Config 2.3.9-beta.50+1.20.1
+			porting_lib_core: Porting Lib Core 2.3.9-beta.50+1.20.1
+			porting_lib_data: Porting Lib Data 2.3.9-beta.50+1.20.1
+			porting_lib_entity: Porting Lib Entity 2.3.9-beta.50+1.20.1
+				porting_lib_mixin_extensions: Porting Lib Mixin Extensions 2.3.9-beta.50+1.20.1
+			porting_lib_extensions: Porting Lib Extensions 2.3.9-beta.50+1.20.1
+			porting_lib_fluids: Porting Lib Fluids 2.3.9-beta.50+1.20.1
+			porting_lib_items: Porting Lib Items 2.3.9-beta.50+1.20.1
+			porting_lib_lazy_registration: Porting Lib Lazy Register 2.3.9-beta.50+1.20.1
+			porting_lib_loot: Porting Lib Loot 2.3.9-beta.50+1.20.1
+			porting_lib_model_loader: Porting Lib Model Loader 2.3.9-beta.50+1.20.1
+			porting_lib_models: Porting Lib Models 2.3.9-beta.50+1.20.1
+			porting_lib_networking: Porting Lib Networking 2.3.9-beta.50+1.20.1
+			porting_lib_tool_actions: Porting Lib Tool Actions 2.3.9-beta.50+1.20.1
+			porting_lib_transfer: Porting Lib Transfer 2.3.9-beta.50+1.20.1
+			porting_lib_utility: Porting Lib Utility 2.3.9-beta.50+1.20.1
+		toms_peripherals: Tom's Peripherals 1.3.0
+		trinkets: Trinkets 3.7.2
+		trowel: Trowel 1.3.0-1.20
+		twigs: Twigs 3.1.0
+		uranus: Uranus 2.2.4
+			sponsor_core: Sponsor Core 1.0.0
+		usefulbackpacks: Useful Backpacks ${version}
+		uteamcore: U Team Core 5.1.4.382
+		waystones: Waystones 14.1.16
+		xaerominimap: Xaero's Minimap 25.2.10
+		xaeroworldmap: Xaero's World Map 1.39.12
+		yeetusexperimentus: Yeetus Experimentus 2.3.0-build.4+mc1.20.1
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.6+1.20.1-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Flywheel Backend: Uninitialized
+	Launched Version: 1.20.1-fabric0.17.0
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>

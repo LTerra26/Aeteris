@@ -1,0 +1,22 @@
+{
+    "type": "fabricaeexnihilo:sieve",
+    "input": {
+        "item": "minecraft:sand"
+    },
+    "result": {
+        "count": 1,
+        "item": "farmersdelight:wild_rice"
+    },
+    "rolls": {
+        "fabricaeexnihilo:flint_mesh": [
+            0.125
+        ],
+        "fabricaeexnihilo:iron_mesh": [
+            0.15
+        ],
+        "fabricaeexnihilo:gold_mesh": [
+            0.175
+        ]
+    },
+    "waterlogged": true
+}

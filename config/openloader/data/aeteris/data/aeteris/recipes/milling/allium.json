@@ -1,0 +1,1 @@
+{"results":[{"chance":1,"item":"minecraft:pink_dye","count":1},{"chance":0.5,"item":"minecraft:magenta_dye","count":1},{"chance":0.35,"item":"botania:white_petal","count":1}],"type":"create:milling","ingredients":[{"item":"minecraft:allium"}],"processingTime":200}

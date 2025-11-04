@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:chest"
+    },
+    "I": {
+      "item": "minecraft:andesite"
+    }
+  },
+  "pattern": [
+    "I I",
+    "IBI",
+    " I "
+  ],
+  "result": {
+    "item": "basic_fluid_hopper:basic_fluid_hopper"
+  },
+  "show_notification": true
+}

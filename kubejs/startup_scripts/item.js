@@ -59,6 +59,21 @@ StartupEvents.registry('item', event => {
     
     event.create('note').maxStackSize(1)
 
+    event.create('copper_gunmetal')
+    event.create('steel_gunparts')
+    event.create('electrum_gunparts')
+    event.create('bronze_gunparts')
+    event.create('shadowsteel_gunparts')
+    event.create('nethered_gunparts')
+
+    event.create('incomplete_steel_gunparts')
+    event.create('incomplete_electrum_gunparts')
+    event.create('incomplete_bronze_gunparts')
+    event.create('incomplete_shadowsteel_gunparts')
+    event.create('incomplete_nethered_gunparts')
+
+    event.create('unfired_bucket').maxStackSize(1)
+
 })
 
 ItemEvents.modification(event => {

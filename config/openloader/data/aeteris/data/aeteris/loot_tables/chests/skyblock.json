@@ -63,6 +63,21 @@
           "name": "create_ironworks:copper_armor_boots"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:note",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"1\",\"color\":\"gray\"}']},note_1:1b}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

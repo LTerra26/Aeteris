@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "item": "fabricaeexnihilo:flint_mesh"
+    },
+    "S": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "SOS",
+    "#S#"
+  ],
+  "result": {
+    "item": "fabricaeexnihilo:iron_mesh"
+  },
+  "show_notification": true
+}

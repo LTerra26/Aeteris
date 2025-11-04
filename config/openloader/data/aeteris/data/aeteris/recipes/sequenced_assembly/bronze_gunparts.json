@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "create_dd:bronze_ingot" },
+  "loops": 1,
+  "results": [ { "item": "kubejs:bronze_gunparts" } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_bronze_gunparts" },
+        { "item": "create:cogwheel" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_bronze_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_bronze_gunparts" },
+        { "item": "create:sturdy_sheet" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_bronze_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_bronze_gunparts" },
+        { "item": "createaddition:copper_wire" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_bronze_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_bronze_gunparts" },
+        { "item": "create_dd:ember_alloy" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_bronze_gunparts" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "kubejs:incomplete_bronze_gunparts" } ],
+      "results": [ { "item": "kubejs:incomplete_bronze_gunparts" } ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_bronze_gunparts"
+  }
+}

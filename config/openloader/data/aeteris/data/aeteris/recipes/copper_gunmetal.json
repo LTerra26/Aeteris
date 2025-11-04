@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "create:andesite_alloy"
+        },
+        {
+            "item": "create_dd:industrial_iron_nugget"
+        },
+        {
+            "item": "create:zinc_nugget"
+        },
+        {
+            "item": "minecraft:copper_ingot"
+        },
+        {
+            "item": "minecraft:copper_ingot"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "item": "kubejs:copper_gunmetal"
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "kubejs:nethered_ingot" },
+  "loops": 1,
+  "results": [ { "item": "kubejs:nethered_gunparts" } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_nethered_gunparts" },
+        { "item": "create:cogwheel" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_nethered_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_nethered_gunparts" },
+        { "item": "create:sturdy_sheet" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_nethered_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_nethered_gunparts" },
+        { "item": "createaddition:electrum_wire" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_nethered_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_nethered_gunparts" },
+        { "item": "botania:elementium_ingot" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_nethered_gunparts" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "kubejs:incomplete_nethered_gunparts" } ],
+      "results": [ { "item": "kubejs:incomplete_nethered_gunparts" } ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_nethered_gunparts"
+  }
+}

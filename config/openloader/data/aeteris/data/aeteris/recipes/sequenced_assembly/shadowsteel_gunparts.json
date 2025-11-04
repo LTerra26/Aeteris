@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "create_dd:shadow_steel" },
+  "loops": 1,
+  "results": [ { "item": "kubejs:shadowsteel_gunparts" } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_gunparts" },
+        { "item": "create:cogwheel" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_gunparts" },
+        { "item": "create:sturdy_sheet" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_gunparts" },
+        { "item": "createaddition:electrum_wire" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_shadowsteel_gunparts" },
+        { "item": "create_dd:compound_base" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_gunparts" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "kubejs:incomplete_shadowsteel_gunparts" } ],
+      "results": [ { "item": "kubejs:incomplete_shadowsteel_gunparts" } ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_shadowsteel_gunparts"
+  }
+}

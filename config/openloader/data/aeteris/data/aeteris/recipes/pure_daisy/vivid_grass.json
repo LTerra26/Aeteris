@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "minecraft:grass_block"
+  },
+  "output": {
+    "name": "botania:vivid_grass"
+  }
+}

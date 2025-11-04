@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "createaddition:electrum_ingot" },
+  "loops": 1,
+  "results": [ { "item": "kubejs:electrum_gunparts" } ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_electrum_gunparts" },
+        { "item": "create:cogwheel" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_electrum_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_electrum_gunparts" },
+        { "item": "create:sturdy_sheet" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_electrum_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_electrum_gunparts" },
+        { "item": "createaddition:gold_wire" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_electrum_gunparts" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "kubejs:incomplete_electrum_gunparts" },
+        { "item": "create_dd:polished_spectral_ruby" }
+      ],
+      "results": [ { "item": "kubejs:incomplete_electrum_gunparts" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "kubejs:incomplete_electrum_gunparts" } ],
+      "results": [ { "item": "kubejs:incomplete_electrum_gunparts" } ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_electrum_gunparts"
+  }
+}

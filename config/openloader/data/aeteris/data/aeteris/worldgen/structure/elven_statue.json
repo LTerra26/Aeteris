@@ -1,7 +1,9 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-    "iceandfire:dread_plain"
+    "iceandfire:dread_plain",
+    "iceandfire:dread_forest",
+    "aeteris:haunted_forest"
   ],
   "step": "surface_structures",
   "terrain_adaptation": "none",
