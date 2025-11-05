@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create_dd:bronze_block"
+  },
+  "result": {
+    "amount": 81000,
+    "fluid": "tconstruct:molten_bronze"
+  },
+  "temperature": 700,
+  "time": 171
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/plate"
+  },
+  "cast_consumed": true,
+  "cooling_time": 57,
+  "fluid": {
+    "amount": 9000,
+    "tag": "c:molten_bronze"
+  },
+  "result": {
+    "item": "create_dd:bronze_sheet"
+  }
+}

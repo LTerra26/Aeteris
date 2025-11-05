@@ -44,6 +44,7 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'create_ironworks:bronze_nugget' })
   event.remove({ output: 'create_ironworks:steel_ingot' })
   event.remove({ output: 'create_ironworks:tin_ingot' })
+  event.remove({ output: 'create_ironworks:crushed_raw_tin' })
 
   event.remove({ type: 'fabricaeexnihilo:sieve', mod: 'fabricaeexnihilo' })
   event.remove({ type: 'createsifter:sifting', mod: 'createsifter' })
