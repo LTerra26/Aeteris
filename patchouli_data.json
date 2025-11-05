@@ -1,5 +1,40 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:generating_flowers/arcanerose",
+        "botania:generating_flowers/narslimmus",
+        "botania:generating_flowers/munchdew",
+        "botania:generating_flowers/hydroangeas",
+        "botania:generating_flowers/gourmaryllis",
+        "botania:generating_flowers/entropinnyum",
+        "botania:generating_flowers/thermalily",
+        "botania:generating_flowers/endoflame",
+        "botania:generating_flowers/intro",
+        "botania:challenges/welcome",
+        "botania:challenges/apothecary_refill",
+        "botania:challenges/kekimurus_setup",
+        "botania:functional_flowers/dreadthorne",
+        "botania:functional_flowers/intro",
+        "botania:mana/manastar",
+        "botania:mana/redstone_spreader",
+        "botania:mana/intro",
+        "botania:mana/pool",
+        "botania:mana/spreader",
+        "botania:mana/bellows",
+        "botania:mana/sparks",
+        "botania:mana/rf_generator",
+        "botania:mana/mana_detector",
+        "botania:mana/lens",
+        "botania:mana/distributor",
+        "botania:mana/mana_void",
+        "botania:mana/pool_cart",
+        "botania:mana/mana_tablet"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

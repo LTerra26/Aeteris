@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        { "item": "create_dd:tin_nugget" },
+
+        { "item": "minecraft:lapis_lazuli" }
+    ],
+    "results": [
+        { 
+            "item": "create_dd:lapis_alloy",
+            "count": 1
+        }
+    ]
+  }
+  

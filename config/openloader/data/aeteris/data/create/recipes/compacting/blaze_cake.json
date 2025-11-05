@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "kubejs:quartz_powder"
+    },
+    {
+      "item": "create_ironworks:coal_dust"
+    },
+    {
+      "item": "botania:mana_powder"
+    },
+    {
+      "item": "create:cinder_flour"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:blaze_cake_base"
+    }
+  ]
+}

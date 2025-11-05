@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "create_ironworks:crushed_raw_tin"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "create:crushed_raw_tin"
+    }
+}
