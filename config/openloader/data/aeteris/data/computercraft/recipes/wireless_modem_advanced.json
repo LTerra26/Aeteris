@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "#E#",
+    " # "
+  ],
+  "key": {
+    "#": { "item": "create:brass_sheet" },
+    "E": { "item": "minecraft:ender_pearl" },
+    "C": { "item": "createaddition:connector" }
+  },
+  "result": {
+    "item": "computercraft:wireless_modem_advanced"
+  }
+}

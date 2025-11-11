@@ -1,0 +1,15 @@
+{
+    "type": "computercraft:computer_upgrade",
+    "pattern": [
+        "# #",
+        " C ",
+        "#P#"
+    ],
+    "key": {
+        "#": { "item": "create:brass_sheet" },
+        "C": { "item": "computercraft:pocket_computer_normal" },
+        "P": { "item": "create:precision_mechanism" }
+    },
+    "family": "advanced",
+    "result": { "item": "computercraft:pocket_computer_advanced" }
+}

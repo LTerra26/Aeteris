@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "GDG",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "create:brass_sheet" },
+    "G": { "item": "createaddition:gold_wire" },
+    "D": { "item": "create:display_board" }
+  },
+  "result": {
+    "item": "computercraft:monitor_advanced",
+    "count": 2
+  }
+}

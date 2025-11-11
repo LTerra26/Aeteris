@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "#E#",
+    " # "
+  ],
+  "key": {
+    "#": { "item": "create:andesite_alloy" },
+    "E": { "item": "createaddition:copper_wire" },
+    "C": { "item": "createaddition:connector" }
+  },
+  "result": {
+    "item": "computercraft:wired_modem",
+    "count": 2
+  }
+}

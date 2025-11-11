@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ZDZ",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "create:andesite_alloy" },
+    "Z": { "item": "createaddition:zinc_sheet" },
+    "D": { "item": "create:display_board" }
+  },
+  "result": {
+    "item": "computercraft:monitor_normal",
+    "count": 2
+  }
+}

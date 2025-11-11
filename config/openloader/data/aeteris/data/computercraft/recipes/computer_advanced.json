@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "GPG",
+    "#D#"
+  ],
+  "key": {
+    "#": { "item": "create:brass_sheet" },
+    "C": { "item": "createaddition:connector" },
+    "P": { "item": "create:precision_mechanism" },
+    "D": { "item": "create:display_board" },
+    "G": { "item": "createaddition:gold_wire" }
+  },
+  "result": {
+    "item": "computercraft:computer_advanced"
+  }
+}

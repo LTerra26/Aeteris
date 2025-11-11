@@ -34,7 +34,7 @@ gamma:1.0
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:3
 particles:0
 maxFps:120
 graphicsMode:1
@@ -118,9 +118,11 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.cosmetica.customise:key.keyboard.keypad.3
+key_key.cosmetica.snipe:key.mouse.middle
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
-key_axiom.keybind.context:key.keyboard.left.alt
+key_axiom.keybind.context:key.keyboard.right.alt
 key_axiom.keybind.builder_tool_slot:key.keyboard.0
 key_axiom.keybind.orbit_camera:key.keyboard.unknown
 key_axiom.keybind.jump_to_block:key.keyboard.unknown
@@ -138,7 +140,7 @@ key_axiom.keybind.nudge_with_scroll:key.keyboard.unknown
 key_axiom.keybind.nudge_forwards:key.keyboard.unknown
 key_axiom.keybind.nudge_backwards:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f9
-key_key.usefulbackpacks.slotmodintegration.open_backpack.description:key.keyboard.v
+key_key.usefulbackpacks.slotmodintegration.open_backpack.description:key.keyboard.page.up
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
@@ -184,7 +186,7 @@ key_key.tacz.interact.desc:key.keyboard.o
 key_key.tacz.fire_select.desc:key.keyboard.g
 key_key.tacz.aim.desc:key.mouse.right
 key_key.tacz.crawl.desc:key.keyboard.c
-key_key.tacz.refit.desc:key.keyboard.z
+key_key.tacz.refit.desc:key.keyboard.semicolon
 key_key.tacz.zoom.desc:key.keyboard.v
 key_key.tacz.melee.desc:key.keyboard.page.up
 key_key.tacz.open_config.desc:key.keyboard.t
@@ -218,6 +220,7 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.left.bracket
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
+key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:0.5099337748344371
 soundCategory_music:0.0
 soundCategory_record:1.0

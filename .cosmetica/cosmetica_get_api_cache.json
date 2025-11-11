@@ -1,0 +1,10 @@
+{
+	"api":"https://api.cosmetica.cc",
+	"auth-api":"https://auth.cosmetica.cc",
+	"auth-server":{
+		"hostname":"auth.cosmetics.eyezah.com",
+		"port":"25596"
+	},
+	"website": "https://cosmetica.cc",
+	"message": "Bro Xfinity unblock us PLEASE"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#I#",
+    "CRC",
+    "#I#"
+  ],
+  "key": {
+    "#": { "item": "create:andesite_alloy" },
+    "R": { "tag": "c:redstone_dusts" },
+    "I": { "item": "create:iron_sheet" },
+    "C": { "item": "createaddition:capacitor" }
+  },
+  "result": {
+    "item": "computercraft:disk_drive"
+  }
+}

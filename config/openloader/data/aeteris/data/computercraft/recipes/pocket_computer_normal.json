@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "ZEZ",
+    "#D#"
+  ],
+  "key": {
+    "#": { "item": "create:andesite_alloy" },
+    "C": { "item": "createaddition:capacitor" },
+    "Z": { "tag": "c:zinc_plates" },
+    "E": { "item": "create:electron_tube" },
+    "D": { "item": "create:display_board" }
+  },
+  "result": {
+    "item": "computercraft:pocket_computer_normal"
+  }
+}

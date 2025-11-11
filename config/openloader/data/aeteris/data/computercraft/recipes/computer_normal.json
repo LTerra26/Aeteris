@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "ZRZ",
+    "#D#"
+  ],
+  "key": {
+    "#": { "item": "create:andesite_alloy" },
+    "Z": { "tag": "c:zinc_plates" },
+    "R": { "item": "minecraft:redstone" },
+    "D": { "item": "create:display_board" },
+    "C": { "item": "createaddition:connector" }
+  },
+  "result": {
+    "item": "computercraft:computer_normal"
+  }
+}

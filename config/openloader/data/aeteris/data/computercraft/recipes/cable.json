@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#"
+  ],
+  "key": {
+    "#": { "item": "create:andesite_alloy" },
+    "C": { "item": "createaddition:copper_wire" }
+  },
+  "result": {
+    "item": "computercraft:cable",
+    "count": 6
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "ZEZ",
+    "#P#"
+  ],
+  "key": {
+    "#": { "item": "create:brass_sheet" },
+    "Z": { "tag": "c:zinc_plates" },
+    "E": { "item": "create:electron_tube" },
+    "P": { "item": "create:precision_mechanism" },
+    "C": { "item": "createaddition:capacitor" }
+  },
+  "result": {
+    "item": "computercraft:pocket_computer_advanced"
+  }
+}

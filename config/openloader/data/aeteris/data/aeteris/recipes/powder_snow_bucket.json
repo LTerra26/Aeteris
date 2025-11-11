@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      " B "
+    ],
+    "key": {
+      "#": { "item": "kubejs:snow_powder" },
+      "B": { "item": "minecraft:bucket" }
+    },
+    "result": {
+      "item": "minecraft:powder_snow_bucket",
+      "count": 1
+    }
+  }

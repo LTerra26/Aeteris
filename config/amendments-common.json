@@ -3,12 +3,24 @@
   "lectern": {
     "improved_screen": true
   },
+  "fireball": {
+    "dragon_charge": true,
+    "gravity": true,
+    "deflectable": false,
+    "fire_charges_throwable": true,
+    "fire_charges_dispenser_behavior": true,
+    "improved_explosions": true
+  },
+  "snowball": {
+    "freeze_ticks": 35
+  },
   "hanging_signs": {
     "items_on_signs": true
   },
   "cauldron": {
     "enhanced_cauldron": true,
-    "crafting": true,
+    "hand_crafting": true,
+    "in_world_crafting": true,
     "dye_water": true,
     "dye_recipes_per_layer": 4,
     "potion_recipes_per_layer": 2,
@@ -26,7 +38,8 @@
       "minecraft:mining_fatigue": "minecraft:haste",
       "minecraft:instant_health": "minecraft:instant_damage"
     },
-    "connect_to_fences": true
+    "connect_to_fences": true,
+    "consistent_lava_layers": false
   },
   "tripwire_hook": {
     "tool_hook": true

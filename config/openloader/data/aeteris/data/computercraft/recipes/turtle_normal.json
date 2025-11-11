@@ -1,0 +1,16 @@
+{
+    "type": "computercraft:turtle",
+    "pattern": [
+        "C#C",
+        "#A#",
+        "#I#"
+    ],
+    "key": {
+        "#": { "tag": "c:zinc_plates" },
+        "A": { "item": "computercraft:computer_normal" },
+        "I": { "tag": "c:wooden_chests" },
+        "C": { "item": "createaddition:capacitor" }
+    },
+    "family": "normal",
+    "result": { "item": "computercraft:turtle_normal" }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "computercraft:computer_upgrade",
+    "pattern": [
+        "# #",
+        "GCG",
+        "#P#"
+    ],
+    "key": {
+        "#": { "item": "create:brass_sheet" },
+        "C": { "item": "computercraft:computer_normal" },
+        "G": { "item": "createaddition:gold_wire" },
+        "P": { "item": "create:precision_mechanism" }
+    },
+    "family": "advanced",
+    "result": { "item": "computercraft:computer_advanced" }
+}
