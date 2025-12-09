@@ -1,0 +1,1 @@
+{"results":[{"item":"create:cinder_flour","chance":0.325},{"item":"warpstones:warp_dust","chance":0.125},{"item":"kubejs:gold_dust","chance":0.125},{"item":"kubejs:quartz_powder","chance":0.125}],"type":"createsifter:sifting","ingredients":[{"item":"createsifter:brass_mesh"},{"item":"kubejs:warping_netherrack"}],"processingTime":500}

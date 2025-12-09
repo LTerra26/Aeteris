@@ -1,12 +1,11 @@
 
 [ ] rmv "Toxic Heaps" Nether Biome
-[ ] rmv Recipe for Floral Fertiliser
-[ ] mod Recipe for Overgrown Grout to not use Floral Fertiliser 
-[ ] add automateable recipe for the Dust Block
+[x] rmv Recipe for Floral Fertiliser
+[x] mod Recipe for Overgrown Grout to not use Floral Fertiliser 
+[x] add automateable recipe for the Dust Block
 [ ] rmv create_ironworks tin block recipe from casting into casting basin
-[ ] {sgg} add ectoplasm + use?
 
-[ ] {sgg} add skyslime use?
+[x] {sgg} add skyslime use?
 [ ] {sgg} add recipe for feral claws?
 [ ] fix KubeJS inconsistent reload error
 [ ] add Texture for unfired Bucket
@@ -14,5 +13,15 @@
 [ ] add way to optain honey/bees
 [x] add Cosmetic Armor
 [x] mod recipes for computers using adv electrical items 
-[ ] add alt Recipe for Blazing Blood
+[x] add alt Recipe for Blazing Blood
 [ ] rmv recipe create_deco industrial_iron from create_dd nuggets recipe 
+[x] add recipe for corus pods from sieving warped nylium through the nethered mesh
+[ ] add recipe for mithril mesh
+[ ] mod backpack recipes
+[ ] add recipe mixing diorite from cobble & quartz dust
+[ ] parity fix for Necrotic Bone and wither bone
+[x] way to change dragonscales into different variants
+[ ] information for optaining skyslime
+[ ] rmv glow ink from haunting rcp
+[ ] mk bronze mesh casting only from basin
+[ ] add structures to dreadlands

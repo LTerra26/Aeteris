@@ -1,0 +1,1 @@
+{"heatRequirement":"superheated","type":"create:mixing","ingredients":[{"fluid":"kubejs:molten_shadowsteel","amount":4500},{"item":"kubejs:dragonbone_powder"},{"item":"kubejs:dragonbone_powder"},{"item":"iceandfire:ectoplasm"},{"item":"kubejs:grave_dust"},{"item":"kubejs:grave_dust"},{"item":"tconstruct:sky_slime_crystal"}],"results":[{"item":"kubejs:grave_alloy","count":1}]}

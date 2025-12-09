@@ -165,14 +165,14 @@
 		refined_radiance_light_level = 15
 		#.
 		#Shadow Steel Recipe
-		shadow_steel_recipe = true
+		shadow_steel_recipe = false
 		#.
 		#Shadow Steel Recipe Require Min Height
 		#Range: -2048 ~ 2048
 		shadow_steel_min_height = -10
 		#.
 		#Stargaze Recipe
-		stargaze_singularity_recipe = true
+		stargaze_singularity_recipe = false
 		#.
 		#Stargaze Recipe Require Min Time
 		#Range: 0 ~ 24000

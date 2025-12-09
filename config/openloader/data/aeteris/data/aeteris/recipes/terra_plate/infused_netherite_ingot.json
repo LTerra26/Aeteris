@@ -5,10 +5,10 @@
       "item": "minecraft:netherite_ingot"
     },
     {
-      "item": "botania:elementium_ingot"
+      "item": "create_dd:blaze_gold"
     },
     {
-      "item": "botania:elementium_ingot"
+      "item": "kubejs:pulsing_grave_alloy"
     },
     {
       "tag": "iceandfire:scales/dragon/fire"
@@ -23,7 +23,7 @@
       "item": "kubejs:dragonbone_powder"
     }
   ],
-  "mana": 250000,
+  "mana": 750000,
   "result": {
     "item": "kubejs:infused_netherite_ingot"
   }

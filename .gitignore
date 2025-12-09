@@ -18,9 +18,15 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 *.code-workspace
+patchouli_data.json
+/patchouli_books/
+/libraries/
+/crash-reports/
 /config/*
 !config/iceandfire/
 !config/openloader/
 !config/skyblockcreator/
 !config/fancymenu/
 !config/advancement-book-updated.json
+!config/createcobblestone-common.toml
+!config/create_dd-server.toml

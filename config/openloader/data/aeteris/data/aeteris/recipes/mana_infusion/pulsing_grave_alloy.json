@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "kubejs:phantasmal_catalyst"
+  },
+  "input": {
+    "item": "kubejs:grave_alloy"
+  },
+  "mana": 5000,
+  "output": {
+    "count": 1,
+    "item": "kubejs:pulsing_grave_alloy"
+  }
+}

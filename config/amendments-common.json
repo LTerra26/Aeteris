@@ -84,7 +84,7 @@
     "chain_length": 16
   },
   "banners": {
-    "ceiling_banners": true
+    "ceiling_banners": false
   },
   "misc": {
     "dye_blocks": false

@@ -1,0 +1,15 @@
+{
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "kubejs:phantasmal_catalyst"
+  },
+  "input": {
+    "item": "minecraft:skeleton_skull"
+  },
+  "mana": 5000,
+  "output": {
+    "count": 1,
+    "item": "minecraft:wither_skeleton_skull"
+  }
+}

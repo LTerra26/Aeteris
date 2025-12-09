@@ -32,7 +32,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "kubejs:incomplete_nethered_gunparts" },
-        { "item": "botania:elementium_ingot" }
+        { "item": "kubejs:pulsing_grave_alloy" }
       ],
       "results": [ { "item": "kubejs:incomplete_nethered_gunparts" } ]
     },

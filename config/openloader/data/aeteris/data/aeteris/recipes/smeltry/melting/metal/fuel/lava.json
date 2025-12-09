@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "duration": 100,
+  "fluid": {
+    "amount": 50,
+    "name": "kubejs:superheating_fuel"
+  },
+  "temperature": 2250
+}

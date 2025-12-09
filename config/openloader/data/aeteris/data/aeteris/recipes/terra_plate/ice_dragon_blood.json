@@ -1,0 +1,21 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "tag": "iceandfire:dragon_bloods"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "iceandfire:silver_ingot"
+    },
+    {
+      "item": "botania:rune_winter"
+    }
+  ],
+  "mana": 500000,
+  "result": {
+    "item": "iceandfire:ice_dragon_blood"
+  }
+}

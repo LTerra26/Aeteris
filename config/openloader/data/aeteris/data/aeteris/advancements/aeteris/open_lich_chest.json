@@ -1,0 +1,15 @@
+{
+  "parent": "aeteris:aeteris/root",
+  "criteria": {
+    "eat_heart": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "aeteris:chests/lich_tower"
+      }
+    }
+  },
+  "rewards": {
+    "function": "aeteris:advancement/open_lich_chest",
+    "experience": 0
+  }
+}

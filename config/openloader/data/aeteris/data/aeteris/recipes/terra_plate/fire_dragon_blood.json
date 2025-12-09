@@ -1,0 +1,21 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "tag": "iceandfire:dragon_bloods"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "create_dd:bronze_ingot"
+    },
+    {
+      "item": "botania:rune_summer"
+    }
+  ],
+  "mana": 500000,
+  "result": {
+    "item": "iceandfire:fire_dragon_blood"
+  }
+}

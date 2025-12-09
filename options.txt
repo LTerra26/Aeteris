@@ -24,17 +24,17 @@ hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.5
 screenEffectScale:1.0
-fovEffectScale:1.0
+fovEffectScale:0.3872983423156682
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:12
-simulationDistance:12
+renderDistance:9
+simulationDistance:8
 entityDistanceScaling:1.0
-guiScale:3
+guiScale:2
 particles:0
 maxFps:120
 graphicsMode:1
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","tacz_resources","fabric","Moonlight Mods Dynamic Assets","file/1.20.1 - CC Mono.zip","file/1.20.1 - Create Computers.zip","file/1.20.1 - Create_Style_Hopper.zip","create:legacy_copper","file/1.20.1 - UniqueDark.zip","file/1.20.1 - Icon Xaero\u0027s.zip","file/Resources Trives","file/TerrariaFlavoured","file/VanillaTweaks_r266691.zip","file/UndertaleRadio.zip"]
+resourcePacks:["vanilla","tacz_resources","fabric","Moonlight Mods Dynamic Assets","file/1.20.1 - CC Mono.zip","file/1.20.1 - Create_Style_Hopper.zip","create:legacy_copper","file/1.20.1 - UniqueDark.zip","file/1.20.1 - Icon Xaero\u0027s.zip","file/Resources Trives","file/TerrariaFlavoured","file/VanillaTweaks_r266691.zip","file/UndertaleRadio.zip","file/1.20.1 - Create Computers.zip"]
 incompatibleResourcePacks:["file/1.20.1 - Create_Style_Hopper.zip","file/UndertaleRadio.zip"]
 lastServer:
 lang:en_us
@@ -75,7 +75,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:false
 showAutosaveIndicator:true
@@ -162,10 +162,12 @@ key_key.craftingtweaks.decompress_stack:key.keyboard.unknown
 key_key.craftingtweaks.decompress_all:key.keyboard.unknown
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
 key_key.craftingtweaks.transfer_stack:key.keyboard.unknown
-key_create.keyinfo.toolmenu:key.keyboard.comma
-key_create.keyinfo.toolbelt:key.keyboard.comma
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_create.keyinfo.ponder:key.keyboard.w
 key_key.entityculling.toggle:key.keyboard.unknown
+key_key.jetpack.toggle_active.description:key.keyboard.r
+key_key.jetpack.toggle_hover.description:key.keyboard.v
 key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.keyboard.g
 key_key.dragon_down:key.keyboard.x
@@ -220,13 +222,15 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.left.bracket
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
+key_zoomify.key.zoom:key.keyboard.c
+key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-soundCategory_master:0.5099337748344371
+soundCategory_master:0.4293598233995586
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
-soundCategory_hostile:0.545774647887324
+soundCategory_hostile:0.27816901408450706
 soundCategory_neutral:0.5492957746478874
 soundCategory_player:1.0
 soundCategory_ambient:1.0

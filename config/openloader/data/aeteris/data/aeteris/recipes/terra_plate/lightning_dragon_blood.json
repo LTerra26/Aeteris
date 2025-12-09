@@ -1,0 +1,21 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "tag": "iceandfire:dragon_bloods"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    },
+    {
+      "item": "botania:rune_autumn"
+    }
+  ],
+  "mana": 500000,
+  "result": {
+    "item": "iceandfire:lightning_dragon_blood"
+  }
+}

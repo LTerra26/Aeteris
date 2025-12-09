@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create_dd:mithril_ingot"
+  },
+  "result": {
+    "amount": 9000,
+    "fluid": "kubejs:molten_mithril"
+  },
+  "temperature": 2100,
+  "time": 72
+}

@@ -74,6 +74,10 @@ StartupEvents.registry('item', event => {
 
     event.create('unfired_bucket').maxStackSize(1)
 
+    event.create('grave_dust')
+    event.create('grave_alloy')
+    event.create('pulsing_grave_alloy')
+
 })
 
 ItemEvents.modification(event => {

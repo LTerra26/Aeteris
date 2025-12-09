@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "amount": 20250,
+      "fluid": "kubejs:ice_dragon_blood"
+    }
+  ]
+}

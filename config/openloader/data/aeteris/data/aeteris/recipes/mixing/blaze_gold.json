@@ -1,0 +1,1 @@
+{"heatRequirement":"superheated","type":"create:mixing","ingredients":[{"fluid":"tconstruct:blazing_blood","amount":20250},{"item":"botania:quartz_blaze"},{"item":"botania:quartz_blaze"},{"item":"create:brass_ingot"},{"item":"createaddition:electrum_ingot"}],"results":[{"item":"create_dd:blaze_gold","count":1}]}

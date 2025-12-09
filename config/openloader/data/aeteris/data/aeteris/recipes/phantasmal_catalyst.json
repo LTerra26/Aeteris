@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DSD",
+        "GPG",
+        "DSD"
+    ],
+    "key": {
+        "D": { "item": "iceandfire:dread_stone" },
+        "S": { "item": "tconstruct:sky_slime_crystal" },
+        "G": { "item": "kubejs:grave_dust" },
+        "P": { "item": "iceandfire:ghost_ingot" }
+    },
+    "result": {
+        "item": "kubejs:phantasmal_catalyst",
+        "count": 1
+    }
+}

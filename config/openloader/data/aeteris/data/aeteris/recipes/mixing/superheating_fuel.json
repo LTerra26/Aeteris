@@ -1,0 +1,1 @@
+{"heatRequirement":"superheated","type":"create:mixing","ingredients":[{"fluid":"minecraft:lava","amount":81000},{"fluid":"tconstruct:blazing_blood","amount":40500},{"item":"kubejs:quartz_powder"},{"item":"create:cinder_flour"},{"item":"minecraft:blaze_powder"}],"results":[{"fluid":"kubejs:superheating_fuel","amount":10125}]}

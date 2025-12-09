@@ -1,0 +1,15 @@
+{
+  "values": [
+    "tconstruct:bronze_reinforcement",
+    "tconstruct:iron_reinforcement",
+    "tconstruct:cobalt_reinforcement",
+    "create:brass_hand",
+    "create:crafting_blueprint",
+    "minecraft:white_stained_glass_pane",
+    "minecraft:written_book",
+    "minecraft:writable_book",
+    "createdeco:decal_left",
+    "createdeco:decal_right",
+    "createdeco:decal_cross"
+  ]
+}

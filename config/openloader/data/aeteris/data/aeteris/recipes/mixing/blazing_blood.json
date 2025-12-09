@@ -1,0 +1,55 @@
+{
+    "heatRequirement": "superheated",
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "fluid": "minecraft:lava",
+            "amount": 81000
+        },
+        {
+            "item": "kubejs:silver_dust"
+        },
+        {
+            "item": "kubejs:silver_dust"
+        },
+        {
+            "item": "kubejs:silver_dust"
+        },
+        {
+            "item": "kubejs:gold_dust"
+        },
+        {
+            "item": "kubejs:gold_dust"
+        },
+        {
+            "item": "kubejs:gold_dust"
+        },
+        {
+            "item": "botania:mana_powder"
+        },
+        {
+            "item": "botania:mana_powder"
+        },
+        {
+            "item": "botania:mana_powder"
+        },
+        {
+            "item": "botania:mana_powder"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        }
+    ],
+    "results": [
+        {
+            "fluid": "tconstruct:blazing_blood",
+            "amount": 40500
+        }
+    ]
+}
